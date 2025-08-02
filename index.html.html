@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pranjal Jindal - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f5f9;
+      color: #333;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #1a73e8;
+      margin-bottom: 10px;
+    }
+
+    p.intro {
+      text-align: center;
+      font-size: 1.1rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .project {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 30px 0;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+    }
+
+    .project h3 {
+      color: #1a73e8;
+      margin-bottom: 10px;
+    }
+
+    .project p {
+      color: #444;
+      margin: 5px 0;
+    }
+
+    .project ul {
+      padding-left: 20px;
+      color: #555;
+    }
+
+    .project ul li {
+      margin-bottom: 6px;
+    }
+
+    .tech {
+      font-weight: 600;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 0.95rem;
+      color: #777;
+    }
+
+    footer a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Pranjal Jindal</h1>
+    <p class="intro">
+      Aspiring Web Developer | DSA Enthusiast | Creative Coder  
+      <br>
+      Cracked <strong>JEE Advanced</strong> with an <strong>All India Rank ~23,000</strong> (Top 1.5% among 1.5M+ aspirants)
+    </p>
+
+    <div class="project">
+      <h3>👨‍💻 About Me</h3>
+      <p>
+        I’m a BTech student at USICT who loves solving problems and building cool things on the web. I enjoy challenges that push me to learn more — whether it's solving a tough DSA problem or recreating animations pixel-perfect. I’m currently focused on mastering React.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>🛠️ Skills</h3>
+      <ul>
+        <li><strong>Languages:</strong> C++,JavaScript, React (learning)</li>
+        <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React (learning)</li>
+        <li><strong>Tools/Libraries:</strong> GSAP, locomotive</li>
+        <li><strong>DSA Platforms:</strong> LeetCode, GeeksforGeeks</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>🏅 Achievements</h3>
+      <ul>
+        <li>Top 1.5% in JEE Advanced (AIR ~23,000)</li>
+        <li>Solved 350+ DSA problems on LeetCode & GFG</li>
+        <li>Built a Spotify Clone and Obys-inspired animated site from scratch</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>🎵 Spotify Clone</h3>
+      <p>A custom-built Spotify-like music player with core music functionality and responsive design. It allows users to play, pause, and switch songs using array-based indexing and DOM manipulation.</p>
+      <ul>
+        <li>Built using HTML, CSS, and JavaScript.</li>
+        <li>Managed song list using arrays for indexing and control flow.</li>
+        <li>Implemented play/pause logic, progress bar updates, and time syncing.</li>
+        <li>Styled with a modern UI inspired by Spotify’s branding.</li>
+        <li>Fully responsive and tested on both desktop and mobile browsers.</li>
+      </ul>
+      <p class="tech">Technologies: HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="project">
+      <h3>🌀 Obys Agency Animations</h3>
+      <p>Recreated advanced scroll-triggered animations inspired by the Obys Agency portfolio website to improve my creative front-end skills.</p>
+      <ul>
+        <li>Used <strong>GSAP</strong> and <strong>ScrollTrigger</strong> for smooth and complex scroll animations.</li>
+        <li>Implemented hover effects, parallax scrolling, and transitions between sections.</li>
+        <li>Focused on precise timing, easing, and element targeting to replicate a high-end user experience.</li>
+        <li>Practiced animation chaining, timeline control, and smooth page transitions.</li>
+        
+      </ul>
+      <p class="tech">Technologies: HTML, CSS, JavaScript, GSAP</p>
+    </div>
+
+    <div class="project">
+      <h3>⚛️ Learning React</h3>
+      <p>Currently learning React to build modern and dynamic single-page applications (SPAs).</p>
+    </div>
+
+    <div class="project">
+      <h3>🧠 DSA Practice (LeetCode + GFG)</h3>
+      <p>Solved over <strong>350+ Data Structures and Algorithms problems</strong> across platforms like LeetCode and GeeksforGeeks. Regular practice has strengthened my coding logic, problem-solving approach, and confidence in tackling coding interviews.</p>
+      <ul>
+        <li>Covered major topics like Arrays, Strings, Linked Lists, Trees, Graphs, Recursion, and Dynamic Programming.</li>
+        <li>Consistently practiced both easy and hard-level problems.</li>
+        <li>Strong foundation in time-space complexity, edge cases, and code optimization.</li>
+      </ul>
+      <p class="tech">Platforms: LeetCode, GeeksforGeeks</p>
+    </div>
+
+    <footer>
+      <p>Contact: <a href="mailto:pranjaljindal06@gmail.com">pranjaljindal06@gmail.com</a></p>
+    </footer>
+  </div>
+
+</body>
+</html>
